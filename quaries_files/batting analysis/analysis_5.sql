@@ -11,4 +11,4 @@ join dim_player as p
 on fb.batter_id = p.player_id
 where fb.score = 6
 group by p.player_name
-order by total_fours desc
+order by total_sixes desc
